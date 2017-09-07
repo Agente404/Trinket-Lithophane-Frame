@@ -5,6 +5,7 @@
 #define POT_PIN 1   //Pot connected to pin
 #define BRIGHTNESS 255 //Neopixel full brightness
 
+//RGBW neopixel stick
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NEO_NUM, NEO_PIN, NEO_RGBW + NEO_KHZ800);
 
 int potVal = 550;
