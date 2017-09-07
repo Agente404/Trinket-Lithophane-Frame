@@ -1,4 +1,4 @@
-# Trinket-Lithophane-Frame
+# Trinket Lithophane Frame
 Code for cycling through color using a potentiometer. It's part of my lithophane frame project.
 
 * [Parts List](https://eu.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=88eeaba76d)
