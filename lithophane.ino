@@ -2,7 +2,7 @@
 
 #define NEO_PIN 0   //Neopixels conected to pin
 #define NEO_NUM 16  //Number of neopixels
-#define POT_PIN 1   //Pot connected to pin
+#define POT_PIN 1   //Pot connected to analog pin 1, Trinket pin #2
 
 //RGBW Neopixel stick
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NEO_NUM, NEO_PIN, NEO_RGBW + NEO_KHZ800);
