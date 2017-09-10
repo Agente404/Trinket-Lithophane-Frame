@@ -31,7 +31,7 @@ void loop()
     potNew = analogRead(POT_PIN);
     potDelta = abs(potVal - potNew);
 
-    if (potDelta > 2){
+    if (potDelta >= 1){
       potVal = potNew;  
 
       switch(potVal){
